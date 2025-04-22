@@ -70,4 +70,4 @@ ZSH_THEME_VIRTUALENV_PREFIX=" with${hotpink} "
 ZSH_THEME_VIRTUALENV_SUFFIX="${PR_RST}"
 
 setopt prompt_subst
-PROMPT="${white}in ${hotpink}%~${PR_RST}\$(virtualenv_prompt_info)\$(ruby_prompt_info)\$vcs_info_msg_0_ ${white} ${PR_RST} "
+PROMPT="${white}in ${hotpink}%1~${PR_RST}\$(virtualenv_prompt_info)\$(ruby_prompt_info)\$vcs_info_msg_0_ ${white} ${PR_RST} "
